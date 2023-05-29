@@ -31,12 +31,10 @@ var igvwebConfig = {
             showSVGButton: false,
             tracks: [
                 {
-                    // Use in conjunction with https://www.dropbox.com/s/zn8nkd7bhdlg84x/GBMSampleInfo.txt?dl=0
                     name: 'GBM Copy Number',
                     url: 'https://www.dropbox.com/s/4jufc6dbedpk3qz/GBMCopyNumber.seg.gz?dl=0'
                 },
                 {
-                    // Use in conjunction with https://www.dropbox.com/s/zn8nkd7bhdlg84x/GBMSampleInfo.txt?dl=0
                     type: 'sampleinfo',
                     url: 'https://www.dropbox.com/s/zn8nkd7bhdlg84x/GBMSampleInfo.txt?dl=0'
                 }
