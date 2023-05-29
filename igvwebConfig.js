@@ -6,7 +6,7 @@ var igvwebConfig = {
 
     // Supply a drobpox api key to enable the Dropbox file picker in the load menus.  This is optional
     //dropboxAPIKey: "...",
-    
+
      // Supply a Google client id to enable the Google file picker in the load menus.  This is optional
     //clientId: "...",
     // apiKey: "...",
@@ -29,7 +29,17 @@ var igvwebConfig = {
             queryParametersSupported: true,
             showChromosomeWidget: true,
             showSVGButton: false,
-            tracks: []
+            sampleInfoFileList:
+                [
+                    'https://www.dropbox.com/s/zn8nkd7bhdlg84x/GBMSampleInfo.txt?dl=0',
+                ],
+            tracks:
+                [
+                    {
+                        name: 'GBM Copy Number',
+                        url: 'https://www.dropbox.com/s/4jufc6dbedpk3qz/GBMCopyNumber.seg.gz?dl=0'
+                    }
+                ]
         }
 
 }
