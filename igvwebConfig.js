@@ -23,22 +23,20 @@ var igvwebConfig = {
 
     igvConfig:
         {
-            genome: "hg19",
-            locus: "all",
-            genomeList: "resources/genomes.json",
-            queryParametersSupported: true,
-            showChromosomeWidget: true,
-            showSVGButton: false,
+            genome: "hg38",
+            locus: "chr20:56,411,666-56,428,625",
             tracks: [
                 {
-                    name: 'GBM Copy Number',
-                    url: 'https://www.dropbox.com/s/4jufc6dbedpk3qz/GBMCopyNumber.seg.gz?dl=0'
+                    "type": "shoebox",
+                    "url": "https://www.dropbox.com/s/qxpnqfvbiqs0eyz/model1.allChr.f.2.hg38.r10.hic?dl=0",
+                    "name": "model1.allChr.f.2.hg38.r10.hic",
+                    "colorScale": "9010,0,0,255",
                 },
                 {
-                    type: 'sampleinfo',
-                    url: 'https://www.dropbox.com/s/zn8nkd7bhdlg84x/GBMSampleInfo.txt?dl=0'
-                }
+                    "type": "sampleinfo",
+                    "url": "https://www.dropbox.com/s/t0vj2i9bccwle3x/shoebox_sampleInfo.txt?dl=0"
 
+                }
             ]
         }
 
